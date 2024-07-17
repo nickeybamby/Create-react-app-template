@@ -1,0 +1,26 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+:root {
+  --color-primary: #0a2749;
+  --color-primary-variant: #1e3957;
+  --color-bg-body: #ffffe8;
+  --color-secondary: #cba328;
+  --color-link: #e8e8f7;
+  --color-gray-200: #afafd0;
+  --color-gray-300: #2b2b58;
+
+  --container-width-lg: 80%;
+  --container-width-md: 90%;
+
+  --transition: all 500ms ease;
+}

@@ -1,0 +1,44 @@
+/* -----GENERAL STYLES----- */
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--color-gray-300);
+    line-height: 1.7;
+    overflow-x: hidden;
+    background: var(--color-bg-body)
+}
+
+h1, h2 {
+    font-family: 'Kurale', sans-serif;
+    color: var(--color-primary);
+    line-height: 1.2;
+    font-size: 3rem;
+}
+
+h3, h4, h5 {
+    font-family: 'Khand', sans-serif;
+    color: var(--color-secondary);
+    line-height: 1.2;
+}
+
+.italic {
+    font-family: "Marck Script";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.container {
+    width: var(--container-width-lg);
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+a {
+    color: var(--color-link);
+}
+
+img {
+    display: block;
+    object-fit: cover;
+    width: 100%;
+}
